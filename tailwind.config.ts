@@ -7,7 +7,13 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      "nav": ["Slack-Circular-Pro" ,'Helvetica Neue',"Helvetica",'Segoe UI',"Tahoma","Arial","sans-serif"],
+    },
     extend: {
+      border: {
+        "1": "1rem"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
